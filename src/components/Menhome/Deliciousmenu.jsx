@@ -7,7 +7,7 @@ import icon01 from "../../assets/images/Motocross-Motorcycle.png";
 // import menuimg from "../../assets/images/menu.png";
 import videoimg from "../../assets/images/since_round.png";
 import playimg from "../../assets/images/play.png";
-
+import { AiOutlineCloseCircle } from "react-icons/ai";
 const DeliciousMenu = {
   responsive: [
     {
@@ -431,7 +431,9 @@ function Deliciousmenu() {
                 data-dismiss="modal"
                 onClick={() => setytShow(false)}
               >
-                <i className="icofont-close-line-circled" />
+                {/* <i className="icofont-close-line-circled" /> */}
+                <AiOutlineCloseCircle />
+                {/*  */}
               </button>
               <div className="modal-body">
                 <div id="video-container" className="video-container">

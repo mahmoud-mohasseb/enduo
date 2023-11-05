@@ -17,7 +17,8 @@ function Main() {
                 <p>
                   PathFinderEnduro, Brasov Romania <br />
                   Strada principale ,comuna Sinca <br />
-                  Booking : <Link to="tel:+88-123-123456">+40 765 569 064</Link>
+                  Booking :{" "}
+                  <Link to="tel:+40 765 569 064">+40 765 569 064</Link>
                 </p>
                 <Link to="/contact" className="btn_text">
                   get direction <AiOutlineArrowRight />
