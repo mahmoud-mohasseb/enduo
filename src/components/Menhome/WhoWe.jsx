@@ -23,15 +23,19 @@ const Whoslider = {
   infinite: true,
   responsive: [
     {
-      breakpoint: 600,
+      breakpoint: 500,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
+        centerMode: true,
+        centerPadding: 40,
       },
     },
     {
       breakpoint: 1000,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 2,
+        centerMode: true,
+        centerPadding: 40,
       },
     },
   ],
