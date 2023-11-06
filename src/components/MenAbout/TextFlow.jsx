@@ -139,7 +139,7 @@ function TextFlow() {
           </div>
           <div className="item">
             <div className="text_block">
-              <span> MotorBikes </span>
+              <span> MotorBikes2 </span>
               <span className="mark_star">*</span>
             </div>
           </div>

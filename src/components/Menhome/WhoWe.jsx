@@ -44,7 +44,7 @@ function WhoWe() {
         <div
           className="sider_shape"
           data-aos="fade-in"
-          data-aos-duration={1500}
+          data-aos-duration={1000}
         >
           <img src={WeImg} alt="img" />
         </div>
@@ -52,7 +52,7 @@ function WhoWe() {
           <div
             className="section_title d-flex justify-content-center align-items-start"
             data-aos="fade-up"
-            data-aos-duration={1500}
+            data-aos-duration={1000}
           >
             <div className="icon">
               <img src={WeIcon} alt="img" />
@@ -60,7 +60,7 @@ function WhoWe() {
             <div className="text">
               <span className="sub_text">Who we are</span>
               <h2>
-                Luxurious stay with A Tasty food Pathfinderenduro
+                luxury stays with A Tasty food PathFinderEnduro
                 <br /> you can’t find anywhere .{" "}
               </h2>
             </div>
@@ -85,7 +85,7 @@ function WhoWe() {
                 <div
                   className="chef_block d-flex justify-content-center align-items-center"
                   data-aos="fade-up"
-                  data-aos-duration={1500}
+                  data-aos-duration={1000}
                 >
                   <img className="chef_img" src={Wechef} alt="img" />
                   {/* <img className="text_img" src={Wetext} alt="img" /> */}
@@ -93,7 +93,7 @@ function WhoWe() {
                 <div
                   className="action_block"
                   data-aos="fade-up"
-                  data-aos-duration={1500}
+                  data-aos-duration={1000}
                 >
                   <ul className="social_media d-flex align-content-center">
                     <li>
@@ -131,7 +131,7 @@ function WhoWe() {
             {...Whoslider}
             id="gallery_flow_right"
             data-aos="fade-in"
-            data-aos-duration={1500}
+            data-aos-duration={1000}
             slidesToShow={11.5}
             arrows={false}
             autoplay={true}
@@ -203,7 +203,7 @@ function WhoWe() {
             {...Whoslider}
             id="gallery_flow_left"
             data-aos="fade-in"
-            data-aos-duration={1500}
+            data-aos-duration={1000}
             rtl={true}
             slidesToShow={11.5}
             arrows={false}

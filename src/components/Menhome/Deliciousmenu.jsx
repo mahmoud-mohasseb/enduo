@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import BG from "../../assets/images/background.png";
 import icon01 from "../../assets/images/Motocross-Motorcycle.png";
-// import menu01 from "../../assets/images/menu.png";
-// import menuimg from "../../assets/images/menu.png";
+import menu01 from "../../assets/images/menu.png";
+import menuimg from "../../assets/images/menu.png";
 import videoimg from "../../assets/images/since_round.png";
 import playimg from "../../assets/images/play.png";
 import { AiOutlineCloseCircle } from "react-icons/ai";
@@ -100,7 +100,7 @@ function Deliciousmenu() {
               </div>
               <div className="hover_state">
                 <div className="menu_img">
-                  {/* <img src={menu01} alt="img" /> */}
+                  <img src={menu01} alt="img" />
                 </div>
                 <div className="menu_name">
                   <h3>
@@ -126,7 +126,7 @@ function Deliciousmenu() {
                     </li>
                   </ul>
                 </div>
-                <Link to="/menulist1" className="btn btn_primary">
+                <Link to="/" className="btn btn_primary">
                   View Our Menu <i className="icofont-long-arrow-right" />
                 </Link>
               </div>
@@ -181,11 +181,11 @@ function Deliciousmenu() {
               </div>
               <div className="hover_state">
                 <div className="menu_img">
-                  {/* <img src={menuimg} alt="img" /> */}
+                  <img src={menuimg} alt="img" />
                 </div>
                 <div className="menu_name">
                   <h3>
-                    <Link to="/menulist2">LUNCH</Link>
+                    <Link to="/">LUNCH</Link>
                   </h3>
                 </div>
                 <div className="menuMobileLIst">
@@ -207,7 +207,7 @@ function Deliciousmenu() {
                     </li>
                   </ul>
                 </div>
-                <Link to="/menulist2" className="btn btn_primary">
+                <Link to="/" className="btn btn_primary">
                   View Our Menu <i className="icofont-long-arrow-right" />
                 </Link>
               </div>
@@ -262,11 +262,11 @@ function Deliciousmenu() {
               </div>
               <div className="hover_state">
                 <div className="menu_img">
-                  {/* <img src={menuimg} alt="img" /> */}
+                  <img src={menuimg} alt="img" />
                 </div>
                 <div className="menu_name">
                   <h3>
-                    <Link to="/menulist3">BRUNCH</Link>
+                    <Link to="/">BRUNCH</Link>
                   </h3>
                 </div>
                 <div className="menuMobileLIst">
@@ -288,7 +288,7 @@ function Deliciousmenu() {
                     </li>
                   </ul>
                 </div>
-                <Link to="/menulist3" className="btn btn_primary">
+                <Link to="/" className="btn btn_primary">
                   View Our Menu <i className="icofont-long-arrow-right" />
                 </Link>
               </div>
@@ -369,7 +369,7 @@ function Deliciousmenu() {
                     </li>
                   </ul>
                 </div>
-                <Link to="/menulist1" className="btn btn_primary">
+                <Link to="/" className="btn btn_primary">
                   View Our Menu <i className="icofont-long-arrow-right" />
                 </Link>
               </div>

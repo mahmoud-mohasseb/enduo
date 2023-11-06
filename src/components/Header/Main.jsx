@@ -240,7 +240,7 @@ function Main() {
               <li>
                 <p className="sub_title">Email us</p>
                 <div className="cnt_block">
-                  <Link to="mailto:">popa.bogdan33@gmail.com</Link>
+                  <Link to="mailto:"> popa.bogdan33@yahoo.ro </Link>
                   <span>
                     {/* <i className="icofont-envelope-open" /> */}
                     <SlEnvolopeLetter />

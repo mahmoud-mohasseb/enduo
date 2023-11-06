@@ -180,8 +180,11 @@ function Review() {
                     <i className="icofont-star" />
                   </span>
                 </div>
-                <p>It’s a great experience , will repeat it 🔥 🔥 🔥 🔥</p>
-                <h3 className="name">- Willium Joe</h3>
+                <p>
+                  It’s a great experience , will repeat it 🔥 🔥 🔥 🔥 🔥 🔥 🔥
+                  🔥
+                </p>
+                <h3 className="name">- robin24h7</h3>
               </div>
               <span className="quotes right_quote">
                 <i className="icofont-duotone icofont-quote-right" />
